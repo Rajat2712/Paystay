@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">PayStay</string>
+    <string name="register"><u>Click Here To Register</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="category">Select Category </string>
+    <string name="GenOTP">Click on <b>Generate OTP</b> to reset ur password</string>
+    <string-array name="nav_list">
+        <item>Home</item>
+        <item>Search</item>
+        <item>Shortlist</item>
+        <item>Register</item>
+        <item>Feedback</item>
+        <item>About Us</item>
+        <item>Contact Us</item>
+        <item>Logout</item>
+        <item>Exit</item>
+
+    </string-array>
+    <string-array name="loc">
+        <item>--Select Location--</item>
+        <item>Chandigarh</item>
+        <item>Panchkula</item>
+    </string-array>
+    <string name="spinner_title">Select Category</string>
+    <string name="FeedbackTitle">FeedbackTitle</string>
+    <string name="feedbackresponse">feedbackresponse</string>
+    <string name="action_share">Share</string>
+    <string name="Exit">Exit</string>
+    <string name="Logout">Logout</string>
+    <string name="Admin">Admin</string>
+    <string-array name="gender">
+        <item>--Select Category--</item>
+        <item>Boys</item>
+        <item>Girls</item>
+        <item>Both</item>
+    </string-array>
+    <string-array name="price">
+        <item>--Select Range--</item>
+        <item>Below_4000</item>
+        <item>4000-8000</item>
+        <item>8000-12000</item>
+        <item>Above_12000</item>
+    </string-array>
+    <string-array name="mode">
+        <item>Cash</item>
+        <item>Bank</item>
+    </string-array>
+
+
+    <string-array name="city">
+        <item>---Select Area---</item>
+        <item>Rohini</item>
+        <item>Pitampura</item>
+        <item>Connaught Place</item>
+        <item>Rajouri Garden</item>
+        <item>Dwarka</item>
+        <item>Saket</item>
+        <item>Daryaganj</item>
+        <item>Seelampur</item>
+        <item>Preet Vihar</item>
+        <item>Model Town</item>
+        <item>Patel Nagar</item>
+        <item>Shahdara</item>
+        <item>Kanjhawala</item>
+        <item>Punjabi Bagh</item>
+        <item>Saraswati Vihar</item>
+        <item>Mehrauli</item>
+        <item>Sarita Vihar</item>
+        <item>Mayur Vihar</item>
+        <item>Paharganj</item>
+        <item>Vasant Vihar</item>
+    </string-array>
+
+</resources>

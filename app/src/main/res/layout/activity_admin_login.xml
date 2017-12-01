@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglayer"
+    tools:context="com.example.preetika.paystay.AdminLogin">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.preetika.paystay.AdminLogin"
+        android:touchscreenBlocksFocus="true"
+        android:transitionGroup="false">
+
+
+        <ImageView
+            android:src="@drawable/home96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textView2"
+            android:layout_toStartOf="@+id/textView2" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Administrator Login"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowColor="@color/White"
+            android:shadowRadius="2"
+            android:textSize="30dp"
+
+            android:textStyle="italic"
+            android:id="@+id/textView2"
+
+
+            android:layout_alignBottom="@+id/imageView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="29dp" />
+
+        <AutoCompleteTextView
+
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:hint="Email"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="8dp" />
+
+
+
+        <EditText
+            android:drawablePadding="8dp"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:password="true"
+            android:drawableLeft="@drawable/pass"
+            android:layout_below="@+id/user"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></EditText>
+
+        <TextView android:id="@+id/signUpGreet"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="130dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="* Please Login to continue"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textColor="#ff0000"/>
+        <Button
+            android:background="@drawable/green_button"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginLeft="90dp"
+            android:onClick="loginToAdmin"
+            android:layout_marginTop="250dp"
+            android:id="@+id/login"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+</ScrollView>

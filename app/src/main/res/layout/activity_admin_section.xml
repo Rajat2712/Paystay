@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglayer"
+    tools:context="com.example.preetika.paystay.FirstScreen"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.preetika.paystay.Admin">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="30dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:id="@+id/cd1"
+            cardview:cardElevation="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            cardview:cardCornerRadius="5dp"
+            android:onClick="openProperty"
+
+
+            android:paddingBottom="@dimen/activity_horizontal_margin">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/property"
+                    android:src="@drawable/property"
+                    android:onClick="openProperty"
+                    android:layout_gravity="top"
+
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+
+                    android:scaleType="centerCrop"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    />
+                <TextView
+                    android:onClick="openProperty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#333333"
+                    android:text="Pg Information"
+                    android:id="@+id/seePgList1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+   <!--     <android.support.v7.widget.CardView
+            android:layout_marginTop="30dp"
+            android:id="@+id/cd2"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_below="@+id/cd1"
+            cardview:cardElevation="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:onClick="seePgList"
+            android:layout_gravity="center_horizontal"
+            cardview:cardCornerRadius="5dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/seePgList"
+                    android:onClick="seePgList"
+                    android:layout_gravity="top"
+                    android:src="@drawable/pglist"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+
+                    android:scaleType="centerCrop"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    />
+                <TextView
+                    android:onClick="seePgList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#333333"
+                    android:text="See PG list"
+                    android:id="@+id/textViewProperty"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            -->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cd3"
+            cardview:cardElevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:onClick="openFeedback"
+            android:layout_gravity="center_horizontal"
+            cardview:cardCornerRadius="5dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:layout_below="@+id/cd1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/feedback"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="openFeedback"
+                    android:id="@+id/feedback"
+                    android:scaleType="centerCrop"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:onClick="openFeedback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#333333"
+                    android:text="See FeedBack"
+                    android:id="@+id/textViewfeedback"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cd4"
+            cardview:cardElevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:onClick="openBooking"
+            android:layout_gravity="center_horizontal"
+            cardview:cardCornerRadius="5dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:layout_below="@+id/cd3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/feedback"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="openBooking"
+                    android:id="@+id/booking"
+                    android:scaleType="centerCrop"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:onClick="openBooking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#333333"
+                    android:text="See Booking"
+                    android:id="@+id/textViewbooking"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <Button
+            android:onClick="Back"
+            android:background="@drawable/green_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="LogOut"
+            android:id="@+id/button26"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

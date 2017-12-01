@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="#b4dfb3"
+    android:orientation="vertical"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/cvpg1Info"
+    cardview:cardCornerRadius="5dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="240dp"
+            android:id="@+id/tvpgphoto"
+            android:layout_toRightOf="@+id/tvpgaddress"
+            android:layout_toEndOf="@+id/tvpgaddress"
+            android:layout_marginLeft="85dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="65dp"
+            android:layout_below="@+id/tvpgname"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/tvpgname" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:id="@+id/tvpgrent"
+
+            android:layout_below="@+id/tvpgname"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textStyle="bold"
+
+            android:id="@+id/tvpgtype"
+            android:layout_below="@+id/tvpgrent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textStyle="bold"
+
+            android:id="@+id/tvpgaddress"
+            android:layout_below="@+id/tvpgtype"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textStyle="bold"
+
+            android:id="@+id/tvpglocation"
+            android:layout_below="@+id/tvpgaddress"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textStyle="bold"
+
+            android:id="@+id/tvphone"
+            android:layout_below="@+id/tvpglocation"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+
+
+
+</RelativeLayout>

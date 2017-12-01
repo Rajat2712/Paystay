@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bglayer"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.preetika.paystay.PostUrAd"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.rajat.paystay.PostUrAd">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/editText"
+            android:background="@drawable/name"
+            android:paddingLeft="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="80dp"
+            android:hint="Name" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="City"
+            android:textSize="20dp"
+            android:paddingLeft="70dp"
+            android:background="@drawable/text"
+            android:id="@+id/textView"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical"/>
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/spinner"
+            android:entries="@array/city"
+            android:background="@drawable/spinner"
+            android:layout_below="@+id/editText"
+            android:layout_alignRight="@+id/editText"
+            android:layout_alignEnd="@+id/editText" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="70dp"
+            android:id="@+id/editText2"
+            android:background="@drawable/address"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="Address" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="100dp"
+            android:id="@+id/editText3"
+            android:background="@drawable/phone"
+            android:layout_below="@+id/editText2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="Phone" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Type"
+            android:textSize="20dp"
+            android:paddingLeft="70dp"
+            android:background="@drawable/text"
+            android:id="@+id/textView1"
+            android:layout_below="@+id/editText3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical"/>
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/spinner1"
+            android:entries="@array/gender"
+            android:background="@drawable/spinner"
+            android:layout_below="@+id/editText3"
+            android:layout_alignRight="@+id/editText"
+            android:layout_alignEnd="@+id/editText" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/editText4"
+            android:paddingLeft="70dp"
+            android:background="@drawable/price"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="Price" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:paddingLeft="70dp"
+            android:id="@+id/textView2"
+            android:background="@drawable/add1"
+            android:layout_below="@+id/textView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Add Photo"
+            android:gravity="center_vertical"/>
+
+
+
+
+
+
+        <Button
+            android:onClick="Post"
+            android:text="Post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:background="@drawable/green_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Post Your Own Property"
+            android:id="@+id/textView86"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</ScrollView>

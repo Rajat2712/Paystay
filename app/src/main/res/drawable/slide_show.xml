@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/ps1"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/ps2"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/ps3"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/ps4"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/ps5"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/ps6"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/ps7"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/ps8"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/ps9"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/ps10"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/ps11"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/ps12"
+        android:duration="100"/>
+
+</animation-list>

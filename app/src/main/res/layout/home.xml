@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglayer"
+
+    tools:context="com.example.preetika.paystay.Login">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        tools:context="com.example.preetika.paystay.Login"
+        android:touchscreenBlocksFocus="true"
+        android:transitionGroup="false">
+
+        <ImageView
+            android:src="@drawable/home96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textView2"
+            android:layout_toStartOf="@+id/textView2" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowColor="@color/White"
+            android:shadowRadius="2"
+            android:textSize="30dp"
+
+            android:textStyle="italic"
+            android:id="@+id/textView2"
+
+
+            android:layout_alignBottom="@+id/imageView3"
+            android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+        <Button
+            android:background="@drawable/green_button"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:layout_marginLeft="90dp"
+            android:onClick="admin"
+            android:layout_marginTop="200dp"
+            android:id="@+id/admin"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <Button
+            android:background="@drawable/green_button"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:layout_marginLeft="90dp"
+            android:onClick="user"
+            android:layout_marginTop="20dp"
+            android:id="@+id/User"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/admin"
+            />
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>

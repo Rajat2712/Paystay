@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglayer"
+    tools:context="com.example.rajat.paystay.AboutUs"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.preetika.paystay.AboutUs"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Welcome to PayStay!"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="At PayStay we have initiated change.Change for something that can help the world to live better.Fed up with the endless on-site visits and fake listings,we have created a system that notches above others.Smart, Economical Tenant Booking."
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Version"
+            android:id="@+id/textView7" />
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Version 1.0"
+            android:id="@+id/textView10" />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/home96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Developed By:"
+            android:id="@+id/textView12" />
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Tanya Chadha "
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/textView11" />
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Shreya Garg"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/textView13" />
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Terms and Condition:"
+            android:id="@+id/textView14" />
+
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView15"
+            android:text="By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. We are offering you this app to use for your own personal use without cost. The app itself, copyright, database rights and other intellectual property rights related to it, still belong to paystay.
+Paystay is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.
+The Paystay app stores and processes personal data that you have provided to us so that you can book pg’s. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the Paystay app won’t work properly or at all.
+ Paystay cannot always take responsibility for the way you use the app. The requirements for valid email id and password should be met by the user. You should also remember that the app’s booking pg function’s purpose is to make things more convenient for you.
+At some point we may wish to update the app. The app is currently available on Android. Paystay does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
+"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.pgdata.MainActivity"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#b4dfb3"
+        android:padding="4dp"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cvpg1Info"
+            cardview:cardCornerRadius="5dp"
+            android:onClick="Singh's House"
+
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:onClick="Singh"
+                    android:src="@drawable/home1"
+                    android:layout_width="220dp"
+                    android:layout_height="280dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/tvpgaddress1"
+                    android:layout_toEndOf="@+id/tvpgaddress1"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_below="@+id/tvpgname1" />
+
+                <TextView
+                    android:onClick="Singh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PG Name :Singh's House"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+
+                    android:id="@+id/tvpgname1" />
+                <TextView
+                    android:onClick="Singh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent : 3500/ month"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tvpgrent1"
+
+                    android:layout_below="@+id/tvpgname1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:onClick="Singh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type : Boys"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+
+                    android:id="@+id/tvpgboys1"
+                    android:layout_below="@+id/tvpgrent1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:onClick="Singh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address : 150 AKS Colony"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+
+                    android:id="@+id/tvpgaddress1"
+                    android:layout_below="@+id/tvpgboys1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:onClick="Singh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : Rohini"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+
+                    android:id="@+id/tvpglocation1"
+                    android:layout_below="@+id/tvpgaddress1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cvpg2Info"
+            cardview:cardCornerRadius="5dp"
+            android:onClick="MannatNiwas"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/home2"
+                    android:layout_width="220dp"
+                    android:layout_height="280dp"
+                    android:layout_toRightOf="@+id/tvpglocation2"
+                    android:layout_toEndOf="@+id/tvpglocation2"
+                    android:layout_marginLeft="79dp"
+                    android:layout_marginStart="79dp"
+                    android:layout_below="@+id/tvpgname2" />
+                <TextView
+                    android:onClick="MannatNiwas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PG Name :Mannat Niwas"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+
+                    android:id="@+id/tvpgname2" />
+                <TextView
+                    android:onClick="MannatNiwas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent : 3500/ month"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tvpgrent2"
+
+                    android:layout_below="@+id/tvpgname2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type : Girls"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="MannatNiwas"
+                    android:id="@+id/tvpgboys2"
+                    android:layout_below="@+id/tvpgrent2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address : D-170 Bank"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="MannatNiwas"
+                    android:id="@+id/tvpgaddress2"
+                    android:layout_below="@+id/tvpgboys2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : Pitampura"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="MannatNiwas"
+                    android:id="@+id/tvpglocation2"
+                    android:layout_below="@+id/tvpgaddress2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            cardview:cardCornerRadius="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cvpg3Info"
+            android:onClick="KumarPG"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/home3"
+                    android:layout_width="250dp"
+                    android:layout_height="280dp"
+                    android:layout_below="@+id/tvpgname3"
+                    android:layout_toRightOf="@+id/tvpgaddress3"
+                    android:layout_toEndOf="@+id/tvpgaddress3"
+                    android:layout_marginLeft="37dp"
+                    android:layout_marginStart="37dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PG Name :Kumar's PG"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="KumarPG"
+                    android:id="@+id/tvpgname3" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent : 4500/ month"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tvpgrent3"
+                    android:onClick="KumarPG"
+                    android:layout_below="@+id/tvpgname3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type : Boys"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="KumarPG"
+                    android:id="@+id/tvpgboys3"
+                    android:layout_below="@+id/tvpgrent3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address : H-350 power Colony"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="KumarPG"
+                    android:id="@+id/tvpgaddress3"
+                    android:layout_below="@+id/tvpgboys3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : Pitampura"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="KumarPG"
+                    android:id="@+id/tvpglocation3"
+                    android:layout_below="@+id/tvpgaddress3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            cardview:cardCornerRadius="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cvpg4Info"
+            android:onClick="StayHere"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:onClick="StayHere"
+                    android:src="@drawable/home4"
+                    android:layout_width="220dp"
+                    android:layout_height="180dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/tvpgname4"
+                    android:layout_toEndOf="@+id/tvpgname4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PG Name :Stay Here"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="StayHere"
+                    android:id="@+id/tvpgname4" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent : 4500/ month"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tvpgrent4"
+                    android:onClick="StayHere"
+                    android:layout_below="@+id/tvpgname4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type : Girls"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="StayHere"
+                    android:id="@+id/tvpgboys4"
+                    android:layout_below="@+id/tvpgrent4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address : 118, Sec 22"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="StayHere"
+                    android:id="@+id/tvpgaddress4"
+                    android:layout_below="@+id/tvpgboys4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : Rohini"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="StayHere"
+                    android:id="@+id/tvpglocation4"
+                    android:layout_below="@+id/tvpgaddress4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            cardview:cardCornerRadius="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cvpg5Info"
+            android:onClick="RoyalPG"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:onClick="RoyalPG"
+                    android:src="@drawable/home5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/tvpgname5"
+                    android:layout_toEndOf="@+id/tvpgname5"
+                    android:layout_alignParentTop="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PG Name :Royal Pg"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="RoyalPG"
+                    android:id="@+id/tvpgname5" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent : 3500/ month"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tvpgrent5"
+                    android:onClick="Royal PG"
+                    android:layout_below="@+id/tvpgname5"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type : Both"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="RoyalPG"
+                    android:id="@+id/tvpgboys5"
+                    android:layout_below="@+id/tvpgrent5"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address : 160 KP Block"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="RoyalPG"
+                    android:id="@+id/tvpgaddress5"
+                    android:layout_below="@+id/tvpgboys5"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : Pitampura"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="RoyalPG"
+                    android:id="@+id/tvpglocation5"
+                    android:layout_below="@+id/tvpgaddress5"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="10dp"
+            cardview:cardCornerRadius="5dp"
+            android:id="@+id/cvpg6Info"
+            android:onClick="SuryaHouse"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:onClick="SuryaHouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/home6"
+                    android:layout_toRightOf="@+id/tvpgaddress6"
+                    android:layout_toEndOf="@+id/tvpgaddress6"
+                    android:layout_marginLeft="62dp"
+                    android:layout_marginStart="62dp"
+                    android:layout_below="@+id/tvpgname6" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PG Name :Surya house"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="SuryaHouse"
+                    android:id="@+id/tvpgname6" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent : 3500/ month"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tvpgrent6"
+                    android:onClick="SuryaHouse"
+                    android:layout_below="@+id/tvpgname6"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type : Both"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="SuryaHouse"
+                    android:id="@+id/tvpgboys6"
+                    android:layout_below="@+id/tvpgrent6"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address : A-110 Sec-17"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="SuryaHouse"
+                    android:id="@+id/tvpgaddress6"
+                    android:layout_below="@+id/tvpgboys6"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : Rohini"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="SuryaHouse"
+                    android:id="@+id/tvpglocation6"
+                    android:layout_below="@+id/tvpgaddress6"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            cardview:cardCornerRadius="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cvpg7Info"
+            android:onClick="GulabHouse"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:onClick="GulabHouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/home7"
+                    android:layout_marginLeft="57dp"
+                    android:layout_marginStart="57dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/tvpgaddress7"
+                    android:layout_toEndOf="@+id/tvpgaddress7"
+                    android:layout_below="@+id/tvpgname7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PG Name :Gulab House"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="GulabHouse"
+                    android:id="@+id/tvpgname7" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent : 5500/ month"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tvpgrent7"
+                    android:onClick="GulabHouse"
+                    android:layout_below="@+id/tvpgname7"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type : Boys"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="GulabHouse"
+                    android:id="@+id/tvpgboys7"
+                    android:layout_below="@+id/tvpgrent7"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address : H. No-84, Sec-18A "
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="GulabHouse"
+                    android:id="@+id/tvpgaddress7"
+                    android:layout_below="@+id/tvpgboys7"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : Rohini"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="GulabHouse"
+                    android:id="@+id/tvpglocation7"
+                    android:layout_below="@+id/tvpgaddress7"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            cardview:cardCornerRadius="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cvpg8Info"
+            android:onClick="GoyalHouse"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:onClick="GoyalHouse"
+                    android:src="@drawable/home8"
+                    android:layout_width="220dp"
+                    android:layout_height="280dp"
+                    android:layout_marginLeft="69dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/tvpgaddress8"
+                    android:layout_toEndOf="@+id/tvpgaddress8"
+                    android:layout_below="@+id/tvpgname8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PG Name :Goyal's House"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="GoyalHouse"
+                    android:id="@+id/tvpgname8" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent : 5500/ month"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tvpgrent8"
+                    android:onClick="GoyalHouse"
+                    android:layout_below="@+id/tvpgname8"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type : Girls"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="GoyalHouse"
+                    android:id="@+id/tvpgboys8"
+                    android:layout_below="@+id/tvpgrent8"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address : B-105 sec 28  "
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="GoyalHouse"
+                    android:id="@+id/tvpgaddress8"
+                    android:layout_below="@+id/tvpgboys8"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : Rohini"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="GoyalHouse"
+                    android:id="@+id/tvpglocation8"
+                    android:layout_below="@+id/tvpgaddress8"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            cardview:cardCornerRadius="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cvpg9Info"
+            android:onClick="Singla"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:onClick="Singla"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/home9"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/tvpgname9"
+                    android:layout_toEndOf="@+id/tvpgname9"
+                    android:layout_below="@+id/tvpgname9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PG Name :Singla's"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="Singla"
+                    android:id="@+id/tvpgname9" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent : 6500/ month"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tvpgrent9"
+                    android:onClick="Singla"
+                    android:layout_below="@+id/tvpgname9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type : Boys"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="Singla"
+                    android:id="@+id/tvpgboys9"
+                    android:layout_below="@+id/tvpgrent9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address : H. No- 76, sec 19  "
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="Singla"
+                    android:id="@+id/tvpgaddress9"
+                    android:layout_below="@+id/tvpgboys9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : Rohini"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="Singla"
+                    android:id="@+id/tvpglocation9"
+                    android:layout_below="@+id/tvpgaddress9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="10dp"
+            cardview:cardCornerRadius="5dp"
+            android:id="@+id/cvpg10Info"
+            android:onClick="SinghChd"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:onClick="SinghChd"
+                    android:src="@drawable/home10"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="82dp"
+                    android:layout_marginStart="82dp"
+                    android:layout_below="@+id/tvpgname10"
+                    android:layout_toRightOf="@+id/tvpglocation10"
+                    android:layout_toEndOf="@+id/tvpglocation10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PG Name :Singh's House"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:onClick="SinghChd"
+                    android:id="@+id/tvpgname10" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent : 6500/ month"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tvpgrent10"
+                    android:onClick="SinghChd"
+                    android:layout_below="@+id/tvpgname10"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type : Girls"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="SinghChd"
+                    android:id="@+id/tvpgboys10"
+                    android:layout_below="@+id/tvpgrent10"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="H. No. 17 sec 22"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="SinghChd"
+                    android:id="@+id/tvpgaddress10"
+                    android:layout_below="@+id/tvpgboys10"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : Rohini"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:onClick="SinghChd"
+                    android:id="@+id/tvpglocation10"
+                    android:layout_below="@+id/tvpgaddress10"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+</ScrollView>

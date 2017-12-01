@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context="com.example.preetika.paystay.FirstScreen"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:background="#b4dfb3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:padding="4dp">
+
+        <ViewFlipper
+            android:id="@+id/bckgrndViewFlipper1"
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/flipper22" />
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_centerHorizontal="true"
+                android:layout_width="350dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/flipper25" />
+
+            <ImageView
+                android:id="@+id/pg3"
+                android:layout_centerHorizontal="true"
+                android:layout_width="350dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/flipper23" />
+
+            <ImageView
+                android:id="@+id/pg4"
+                android:layout_centerHorizontal="true"
+                android:layout_width="350dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/flipper26" />
+
+            <ImageView
+                android:id="@+id/pg5"
+                android:layout_width="350dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="fill_parent"
+                android:src="@drawable/flipper28" />
+        </ViewFlipper>
+
+        <android.support.v7.widget.CardView
+            cardview:cardElevation="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:onClick="OpenSearchPage"
+            android:layout_gravity="center_horizontal"
+            cardview:cardCornerRadius="5dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:layout_weight="7.38">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/searchi"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/search"
+                    android:scaleType="centerCrop"
+                    android:onClick="OpenSearchPage"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#333333"
+                    android:text="Search Place You Love"
+                    android:id="@+id/textViewsearch"
+                    android:onClick="OpenSearchPage"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <Space
+            android:background="#008000"
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            cardview:cardElevation="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:layout_gravity="center_horizontal"
+            cardview:cardCornerRadius="5dp"
+            android:onClick="openProperty"
+            android:paddingBottom="@dimen/activity_horizontal_margin">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/property"
+                    android:onClick="openProperty"
+                    android:layout_gravity="top"
+                    android:src="@drawable/property"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:scaleType="centerCrop"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    />
+                <TextView
+                    android:onClick="openProperty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#333333"
+                    android:text="Post Your Own Property"
+                    android:id="@+id/textViewProperty"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <Space
+            android:background="#008000"
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <android.support.v7.widget.CardView
+            cardview:cardElevation="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:layout_gravity="center_horizontal"
+            cardview:cardCornerRadius="5dp"
+            android:onClick="openAboutUs"
+            android:paddingBottom="@dimen/activity_horizontal_margin">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/about"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="openAboutUs"
+                    android:id="@+id/about"
+                    android:scaleType="centerCrop"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    />
+                <TextView
+                    android:onClick="openAboutUs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#333333"
+                    android:text="Know About Us More "
+                    android:id="@+id/textViewabout"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <Space
+            android:background="#008000"
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <android.support.v7.widget.CardView
+            cardview:cardElevation="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:onClick="openFeedback"
+            android:layout_gravity="center_horizontal"
+            cardview:cardCornerRadius="5dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/feedback"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="openFeedback"
+                    android:id="@+id/feedback"
+                    android:scaleType="centerCrop"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:onClick="openFeedback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#333333"
+                    android:text="Help Us Improve"
+                    android:id="@+id/textViewfeedback"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
